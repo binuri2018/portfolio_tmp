@@ -1,0 +1,73 @@
+/* ========================================
+   ABOUT COMPONENT STYLES
+   ======================================== */
+
+.about {
+  background-color: var(--background-secondary);
+  position: relative;
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-bio {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.about-description {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  line-height: 1.8;
+  text-align: left;
+  background: var(--background-primary);
+  padding: 2rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-light);
+  border-left: 4px solid var(--primary-color);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-container {
+    padding: 0 1rem;
+  }
+  
+  .about-bio {
+    font-size: 1.1rem;
+  }
+  
+  .about-description {
+    font-size: 1rem;
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-container {
+    padding: 0 0.75rem;
+  }
+  
+  .about-bio {
+    font-size: 1rem;
+  }
+  
+  .about-description {
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+}
+
