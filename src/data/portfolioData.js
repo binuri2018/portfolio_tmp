@@ -15,10 +15,8 @@ export const portfolioData = {
     title: "Software Developer | Web Designer ",
     description: "Passionate developer creating innovative digital solutions with a focus on user experience and clean code.",
     profileImage: "/images/profile.jpg", 
-    ctaButton: {
-      text: "Get In Touch",
-      link: "imbinuri@gmail.com"
-    }
+    github: "https://github.com/binuri2018",
+    linkedin: "https://linkedin.com/in/binuri-manodya"
   },
 
   // ===== ABOUT SECTION =====
