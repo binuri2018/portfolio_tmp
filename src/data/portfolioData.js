@@ -30,13 +30,13 @@ export const portfolioData = {
   // ===== EDUCATION SECTION =====
   education: [
     {
-      educationlevel: "Bachelor of Computer Science",
+      degree: "Bachelor of Computer Science",
       institution: "Sri Lanka Institute of Information Technology (SLIIT)",
       year: "2022 - present",
       details: "Specialized in Information Technology with focus on web development"
     },
     {
-      educationlevel: "Advanced Level",
+      degree: "Advanced Level",
       institution: "Ananda Maithreya Central College (AMCC)",
       year: "2021",
       details: "2Bs, 1S in ICT,SFT,ET"
